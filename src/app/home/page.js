@@ -9,7 +9,7 @@ import {
   deleteNote,
   subscribeToNotes,
   updateNote,
-} from "@/lib/firebase/notes";
+} from "@/libr/firebase/notes";
 import { serverTimestamp } from "firebase/firestore";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";

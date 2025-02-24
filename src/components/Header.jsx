@@ -1,7 +1,7 @@
 "use client";
 
 import { useAuth } from "@/context/AuthContext";
-import { auth } from "@/lib/firebase";
+import { auth } from "@/libr/firebase";
 import { signOut } from "firebase/auth";
 import { useRouter } from "next/navigation";
 import { HiArrowRightOnRectangle } from "react-icons/hi2";
